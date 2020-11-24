@@ -42,6 +42,7 @@ form {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  transition: all 0.5s ease;
 }
 
 .todo li {
@@ -89,6 +90,11 @@ form button:hover {
 .fa-trash,
 .fa-check {
   pointer-events: none;
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.5;
 }
 
 @media only screen and (max-width: 480px) {
