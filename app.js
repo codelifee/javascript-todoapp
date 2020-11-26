@@ -10,7 +10,6 @@ todoButton.addEventListener('click', addTodo);
 todoList.addEventListener('click', deleteCheck);
 filterOption.addEventListener('click', filterTodo);
 
-
 //Functions
 function addTodo(event) {
     //Prevent form from submitting
